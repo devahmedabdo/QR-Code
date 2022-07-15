@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en" id="color">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="title" content="QR Code" />
+  <meta name="description" content="QR Code Generator With Some Tools To Help You Getting Perfect QR Code " />
+  <meta name="author" content="Ahmed Abdo" />
+  <title>QR Code</title>
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/css.css" />
+  <link rel="stylesheet" href="css/global.css" />
+  <script src="https://kit.fontawesome.com/431d566653.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <div class="loading loaading">
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1"
+      x="0px" y="0px" width="200px" height="200px" viewBox="0 0 500 500" enable-background="new 0 0 500 500"
+      xml:space="preserve">
+      <title>QR Code</title>
+      <desc>https://ahmed-abdo.live</desc>
+      <rect display="none" fill="#FFFFFF" width="500" height="500"></rect>
+      <rect width="20" height="20" style="--i:1;"></rect>
+      <rect x="20" width="20" height="20" style="--i:2;"></rect>
+      <rect x="40" width="20" height="20" style="--i:3;"></rect>
+      <rect x="60" width="20" height="20" style="--i:4;"></rect>
+      <rect x="80" width="20" height="20" style="--i:5;"></rect>
+      <rect x="100" width="20" height="20" style="--i:6;"></rect>
+      <rect x="120" width="20" height="20" style="--i:7;"></rect>
+      <rect x="200" width="20" height="20" style="--i:8;"></rect>
+      <rect x="240" width="20" height="20" style="--i:9;"></rect>
+      <rect x="260" width="20" height="20" style="--i:10;"></rect>
+      <rect x="320" width="20" height="20" style="--i:11;"></rect>
+      <rect x="360" width="20" height="20" style="--i:12;"></rect>
+      <rect x="380" width="20" height="20" style="--i:13;"></rect>
+      <rect x="400" width="20" height="20" style="--i:14;"></rect>
+      <rect x="420" width="20" height="20" style="--i:15;"></rect>
+      <rect x="440" width="20" height="20" style="--i:16;"></rect>
+      <rect x="460" width="20" height="20" style="--i:17;"></rect>
+      <rect x="480" width="20" height="20" style="--i:18;"></rect>
+      <rect y="20" width="20" height="20" style="--i:19;"></rect>
+      <rect x="120" y="20" width="20" height="20" style="--i:20;"></rect>
+      <rect x="160" y="20" width="20" height="20" style="--i:21;"></rect>
+      <rect x="200" y="20" width="20" height="20" style="--i:22;"></rect>
+      <rect x="260" y="20" width="20" height="20" style="--i:23;"></rect>
+      <rect x="280" y="20" width="20" height="20" style="--i:24;"></rect>
+      <rect x="300" y="20" width="20" height="20" style="--i:25;"></rect>
+      <rect x="360" y="20" width="20" height="20" style="--i:26;"></rect>
+      <rect x="480" y="20" width="20" height="20" style="--i:27;"></rect>
+      <rect y="40" width="20" height="20" style="--i:28;"></rect>
+      <rect x="40" y="40" width="20" height="20" style="--i:29;"></rect>
+      <rect x="60" y="40" width="20" height="20" style="--i:30;"></rect>
+      <rect x="80" y="40" width="20" height="20" style="--i:31;"></rect>
+      <rect x="120" y="40" width="20" height="20" style="--i:32;"></rect>
+      <rect x="240" y="40" width="20" height="20" style="--i:33;"></rect>
+      <rect x="280" y="40" width="20" height="20" style="--i:34;"></rect>
+      <rect x="300" y="40" width="20" height="20" style="--i:35;"></rect>
+      <rect x="320" y="40" width="20" height="20" style="--i:36;"></rect>
+      <rect x="360" y="40" width="20" height="20" style="--i:37;"></rect>
+      <rect x="400" y="40" width="20" height="20" style="--i:38;"></rect>
+      <rect x="420" y="40" width="20" height="20" style="--i:39;"></rect>
+      <rect x="440" y="40" width="20" height="20" style="--i:40;"></rect>
+      <rect x="480" y="40" width="20" height="20" style="--i:41;"></rect>
+      <rect y="60" width="20" height="20" style="--i:42;"></rect>
+      <rect x="40" y="60" width="20" height="20" style="--i:43;"></rect>
+      <rect x="60" y="60" width="20" height="20" style="--i:44;"></rect>
+      <rect x="80" y="60" width="20" height="20" style="--i:45;"></rect>
+      <rect x="120" y="60" width="20" height="20" style="--i:46;"></rect>
+      <rect x="160" y="60" width="20" height="20" style="--i:47;"></rect>
+      <rect x="180" y="60" width="20" height="20" style="--i:48;"></rect>
+      <rect x="200" y="60" width="20" height="20" style="--i:49;"></rect>
+      <rect x="240" y="60" width="20" height="20" style="--i:50;"></rect>
+      <rect x="260" y="60" width="20" height="20" style="--i:51;"></rect>
+      <rect x="300" y="60" width="20" height="20" style="--i:52;"></rect>
+      <rect x="360" y="60" width="20" height="20" style="--i:53;"></rect>
+      <rect x="400" y="60" width="20" height="20" style="--i:54;"></rect>
+      <rect x="420" y="60" width="20" height="20" style="--i:55;"></rect>
+      <rect x="440" y="60" width="20" height="20" style="--i:56;"></rect>
+      <rect x="480" y="60" width="20" height="20" style="--i:57;"></rect>
+      <rect y="80" width="20" height="20" style="--i:58;"></rect>
+      <rect x="40" y="80" width="20" height="20" style="--i:59;"></rect>
+      <rect x="60" y="80" width="20" height="20" style="--i:60;"></rect>
+      <rect x="80" y="80" width="20" height="20" style="--i:61;"></rect>
+      <rect x="120" y="80" width="20" height="20" style="--i:62;"></rect>
+      <rect x="180" y="80" width="20" height="20" style="--i:63;"></rect>
+      <rect x="260" y="80" width="20" height="20" style="--i:64;"></rect>
+      <rect x="320" y="80" width="20" height="20" style="--i:65;"></rect>
+      <rect x="360" y="80" width="20" height="20" style="--i:66;"></rect>
+      <rect x="400" y="80" width="20" height="20" style="--i:67;"></rect>
+      <rect x="420" y="80" width="20" height="20" style="--i:68;"></rect>
+      <rect x="440" y="80" width="20" height="20" style="--i:69;"></rect>
+      <rect x="480" y="80" width="20" height="20" style="--i:70;"></rect>
+      <rect y="100" width="20" height="20" style="--i:71;"></rect>
+      <rect x="120" y="100" width="20" height="20" style="--i:72;"></rect>
+      <rect x="160" y="100" width="20" height="20" style="--i:73;"></rect>
+      <rect x="180" y="100" width="20" height="20" style="--i:74;"></rect>
+      <rect x="220" y="100" width="20" height="20" style="--i:75;"></rect>
+      <rect x="240" y="100" width="20" height="20" style="--i:76;"></rect>
+      <rect x="260" y="100" width="20" height="20" style="--i:77;"></rect>
+      <rect x="280" y="100" width="20" height="20" style="--i:78;"></rect>
+      <rect x="300" y="100" width="20" height="20" style="--i:79;"></rect>
+      <rect x="360" y="100" width="20" height="20" style="--i:80;"></rect>
+      <rect x="480" y="100" width="20" height="20" style="--i:81;"></rect>
+      <rect y="120" width="20" height="20" style="--i:82;"></rect>
+      <rect x="20" y="120" width="20" height="20" style="--i:83;"></rect>
+      <rect x="40" y="120" width="20" height="20" style="--i:84;"></rect>
+      <rect x="60" y="120" width="20" height="20" style="--i:85;"></rect>
+      <rect x="80" y="120" width="20" height="20" style="--i:86;"></rect>
+      <rect x="100" y="120" width="20" height="20" style="--i:87;"></rect>
+      <rect x="120" y="120" width="20" height="20" style="--i:88;"></rect>
+      <rect x="160" y="120" width="20" height="20" style="--i:89;"></rect>
+      <rect x="200" y="120" width="20" height="20" style="--i:90;"></rect>
+      <rect x="240" y="120" width="20" height="20" style="--i:91;"></rect>
+      <rect x="280" y="120" width="20" height="20" style="--i:92;"></rect>
+      <rect x="320" y="120" width="20" height="20" style="--i:93;"></rect>
+      <rect x="360" y="120" width="20" height="20" style="--i:94;"></rect>
+      <rect x="380" y="120" width="20" height="20" style="--i:95;"></rect>
+      <rect x="400" y="120" width="20" height="20" style="--i:96;"></rect>
+      <rect x="420" y="120" width="20" height="20" style="--i:97;"></rect>
+      <rect x="440" y="120" width="20" height="20" style="--i:98;"></rect>
+      <rect x="460" y="120" width="20" height="20" style="--i:99;"></rect>
+      <rect x="480" y="120" width="20" height="20" style="--i:100;"></rect>
+      <rect x="180" y="140" width="20" height="20" style="--i:101;"></rect>
+      <rect x="200" y="140" width="20" height="20" style="--i:102;"></rect>
+      <rect x="220" y="140" width="20" height="20" style="--i:103;"></rect>
+      <rect y="160" width="20" height="20" style="--i:104;"></rect>
+      <rect x="20" y="160" width="20" height="20" style="--i:105;"></rect>
+      <rect x="40" y="160" width="20" height="20" style="--i:106;"></rect>
+      <rect x="60" y="160" width="20" height="20" style="--i:107;"></rect>
+      <rect x="80" y="160" width="20" height="20" style="--i:108;"></rect>
+      <rect x="120" y="160" width="20" height="20" style="--i:109;"></rect>
+      <rect x="140" y="160" width="20" height="20" style="--i:110;"></rect>
+      <rect x="160" y="160" width="20" height="20" style="--i:111;"></rect>
+      <rect x="180" y="160" width="20" height="20" style="--i:112;"></rect>
+      <rect x="220" y="160" width="20" height="20" style="--i:113;"></rect>
+      <rect x="260" y="160" width="20" height="20" style="--i:114;"></rect>
+      <rect x="280" y="160" width="20" height="20" style="--i:115;"></rect>
+      <rect x="300" y="160" width="20" height="20" style="--i:116;"></rect>
+      <rect x="340" y="160" width="20" height="20" style="--i:117;"></rect>
+      <rect x="380" y="160" width="20" height="20" style="--i:118;"></rect>
+      <rect x="420" y="160" width="20" height="20" style="--i:119;"></rect>
+      <rect x="460" y="160" width="20" height="20" style="--i:120;"></rect>
+      <rect x="40" y="180" width="20" height="20" style="--i:121;"></rect>
+      <rect x="60" y="180" width="20" height="20" style="--i:122;"></rect>
+      <rect x="80" y="180" width="20" height="20" style="--i:123;"></rect>
+      <rect x="140" y="180" width="20" height="20" style="--i:124;"></rect>
+      <rect x="200" y="180" width="20" height="20" style="--i:125;"></rect>
+      <rect x="240" y="180" width="20" height="20" style="--i:126;"></rect>
+      <rect x="260" y="180" width="20" height="20" style="--i:127;"></rect>
+      <rect x="320" y="180" width="20" height="20" style="--i:128;"></rect>
+      <rect x="380" y="180" width="20" height="20" style="--i:129;"></rect>
+      <rect x="460" y="180" width="20" height="20" style="--i:130;"></rect>
+      <rect y="200" width="20" height="20" style="--i:131;"></rect>
+      <rect x="20" y="200" width="20" height="20" style="--i:132;"></rect>
+      <rect x="80" y="200" width="20" height="20" style="--i:133;"></rect>
+      <rect x="120" y="200" width="20" height="20" style="--i:134;"></rect>
+      <rect x="140" y="200" width="20" height="20" style="--i:135;"></rect>
+      <rect x="200" y="200" width="20" height="20" style="--i:136;"></rect>
+      <rect x="280" y="200" width="20" height="20" style="--i:137;"></rect>
+      <rect x="300" y="200" width="20" height="20" style="--i:138;"></rect>
+      <rect x="320" y="200" width="20" height="20" style="--i:139;"></rect>
+      <rect x="380" y="200" width="20" height="20" style="--i:140;"></rect>
+      <rect x="420" y="200" width="20" height="20" style="--i:141;"></rect>
+      <rect x="460" y="200" width="20" height="20" style="--i:142;"></rect>
+      <rect x="480" y="200" width="20" height="20" style="--i:143;"></rect>
+      <rect x="40" y="220" width="20" height="20" style="--i:144;"></rect>
+      <rect x="60" y="220" width="20" height="20" style="--i:145;"></rect>
+      <rect x="160" y="220" width="20" height="20" style="--i:146;"></rect>
+      <rect x="240" y="220" width="20" height="20" style="--i:147;"></rect>
+      <rect x="300" y="220" width="20" height="20" style="--i:148;"></rect>
+      <rect x="360" y="220" width="20" height="20" style="--i:149;"></rect>
+      <rect x="480" y="220" width="20" height="20" style="--i:150;"></rect>
+      <rect x="60" y="240" width="20" height="20" style="--i:151;"></rect>
+      <rect x="80" y="240" width="20" height="20" style="--i:152;"></rect>
+      <rect x="120" y="240" width="20" height="20" style="--i:153;"></rect>
+      <rect x="140" y="240" width="20" height="20" style="--i:154;"></rect>
+      <rect x="160" y="240" width="20" height="20" style="--i:155;"></rect>
+      <rect x="180" y="240" width="20" height="20" style="--i:156;"></rect>
+      <rect x="200" y="240" width="20" height="20" style="--i:157;"></rect>
+      <rect x="240" y="240" width="20" height="20" style="--i:158;"></rect>
+      <rect x="260" y="240" width="20" height="20" style="--i:159;"></rect>
+      <rect x="280" y="240" width="20" height="20" style="--i:160;"></rect>
+      <rect x="300" y="240" width="20" height="20" style="--i:161;"></rect>
+      <rect x="340" y="240" width="20" height="20" style="--i:162;"></rect>
+      <rect x="360" y="240" width="20" height="20" style="--i:163;"></rect>
+      <rect x="400" y="240" width="20" height="20" style="--i:164;"></rect>
+      <rect x="440" y="240" width="20" height="20" style="--i:165;"></rect>
+      <rect x="460" y="240" width="20" height="20" style="--i:166;"></rect>
+      <rect x="480" y="240" width="20" height="20" style="--i:167;"></rect>
+      <rect y="260" width="20" height="20" style="--i:168;"></rect>
+      <rect x="20" y="260" width="20" height="20" style="--i:169;"></rect>
+      <rect x="60" y="260" width="20" height="20" style="--i:170;"></rect>
+      <rect x="80" y="260" width="20" height="20" style="--i:171;"></rect>
+      <rect x="260" y="260" width="20" height="20" style="--i:172;"></rect>
+      <rect x="320" y="260" width="20" height="20" style="--i:173;"></rect>
+      <rect x="380" y="260" width="20" height="20" style="--i:174;"></rect>
+      <rect x="420" y="260" width="20" height="20" style="--i:175;"></rect>
+      <rect x="460" y="260" width="20" height="20" style="--i:176;"></rect>
+      <rect y="280" width="20" height="20" style="--i:177;"></rect>
+      <rect x="40" y="280" width="20" height="20" style="--i:178;"></rect>
+      <rect x="60" y="280" width="20" height="20" style="--i:179;"></rect>
+      <rect x="100" y="280" width="20" height="20" style="--i:180;"></rect>
+      <rect x="120" y="280" width="20" height="20" style="--i:181;"></rect>
+      <rect x="180" y="280" width="20" height="20" style="--i:182;"></rect>
+      <rect x="200" y="280" width="20" height="20" style="--i:183;"></rect>
+      <rect x="220" y="280" width="20" height="20" style="--i:184;"></rect>
+      <rect x="240" y="280" width="20" height="20" style="--i:185;"></rect>
+      <rect x="300" y="280" width="20" height="20" style="--i:186;"></rect>
+      <rect x="320" y="280" width="20" height="20" style="--i:187;"></rect>
+      <rect x="340" y="280" width="20" height="20" style="--i:188;"></rect>
+      <rect x="380" y="280" width="20" height="20" style="--i:189;"></rect>
+      <rect x="400" y="280" width="20" height="20" style="--i:190;"></rect>
+      <rect x="420" y="280" width="20" height="20" style="--i:191;"></rect>
+      <rect x="460" y="280" width="20" height="20" style="--i:192;"></rect>
+      <rect x="480" y="280" width="20" height="20" style="--i:193;"></rect>
+      <rect y="300" width="20" height="20" style="--i:194;"></rect>
+      <rect x="40" y="300" width="20" height="20" style="--i:195;"></rect>
+      <rect x="60" y="300" width="20" height="20" style="--i:196;"></rect>
+      <rect x="140" y="300" width="20" height="20" style="--i:197;"></rect>
+      <rect x="160" y="300" width="20" height="20" style="--i:198;"></rect>
+      <rect x="200" y="300" width="20" height="20" style="--i:199;"></rect>
+      <rect x="220" y="300" width="20" height="20" style="--i:200;"></rect>
+      <rect x="280" y="300" width="20" height="20" style="--i:201;"></rect>
+      <rect x="300" y="300" width="20" height="20" style="--i:202;"></rect>
+      <rect x="320" y="300" width="20" height="20" style="--i:203;"></rect>
+      <rect x="340" y="300" width="20" height="20" style="--i:204;"></rect>
+      <rect x="360" y="300" width="20" height="20" style="--i:205;"></rect>
+      <rect x="380" y="300" width="20" height="20" style="--i:206;"></rect>
+      <rect x="400" y="300" width="20" height="20" style="--i:207;"></rect>
+      <rect x="480" y="300" width="20" height="20" style="--i:208;"></rect>
+      <rect y="320" width="20" height="20" style="--i:209;"></rect>
+      <rect x="60" y="320" width="20" height="20" style="--i:210;"></rect>
+      <rect x="80" y="320" width="20" height="20" style="--i:211;"></rect>
+      <rect x="120" y="320" width="20" height="20" style="--i:212;"></rect>
+      <rect x="140" y="320" width="20" height="20" style="--i:213;"></rect>
+      <rect x="160" y="320" width="20" height="20" style="--i:214;"></rect>
+      <rect x="180" y="320" width="20" height="20" style="--i:215;"></rect>
+      <rect x="200" y="320" width="20" height="20" style="--i:216;"></rect>
+      <rect x="220" y="320" width="20" height="20" style="--i:217;"></rect>
+      <rect x="260" y="320" width="20" height="20" style="--i:218;"></rect>
+      <rect x="280" y="320" width="20" height="20" style="--i:219;"></rect>
+      <rect x="320" y="320" width="20" height="20" style="--i:220;"></rect>
+      <rect x="340" y="320" width="20" height="20" style="--i:221;"></rect>
+      <rect x="360" y="320" width="20" height="20" style="--i:222;"></rect>
+      <rect x="380" y="320" width="20" height="20" style="--i:223;"></rect>
+      <rect x="400" y="320" width="20" height="20" style="--i:224;"></rect>
+      <rect x="440" y="320" width="20" height="20" style="--i:225;"></rect>
+      <rect x="160" y="340" width="20" height="20" style="--i:226;"></rect>
+      <rect x="180" y="340" width="20" height="20" style="--i:227;"></rect>
+      <rect x="200" y="340" width="20" height="20" style="--i:228;"></rect>
+      <rect x="240" y="340" width="20" height="20" style="--i:229;"></rect>
+      <rect x="280" y="340" width="20" height="20" style="--i:230;"></rect>
+      <rect x="300" y="340" width="20" height="20" style="--i:231;"></rect>
+      <rect x="320" y="340" width="20" height="20" style="--i:232;"></rect>
+      <rect x="400" y="340" width="20" height="20" style="--i:233;"></rect>
+      <rect x="420" y="340" width="20" height="20" style="--i:234;"></rect>
+      <rect y="360" width="20" height="20" style="--i:235;"></rect>
+      <rect x="20" y="360" width="20" height="20" style="--i:236;"></rect>
+      <rect x="40" y="360" width="20" height="20" style="--i:237;"></rect>
+      <rect x="60" y="360" width="20" height="20" style="--i:238;"></rect>
+      <rect x="80" y="360" width="20" height="20" style="--i:239;"></rect>
+      <rect x="100" y="360" width="20" height="20" style="--i:240;"></rect>
+      <rect x="120" y="360" width="20" height="20" style="--i:241;"></rect>
+      <rect x="160" y="360" width="20" height="20" style="--i:242;"></rect>
+      <rect x="180" y="360" width="20" height="20" style="--i:243;"></rect>
+      <rect x="200" y="360" width="20" height="20" style="--i:244;"></rect>
+      <rect x="260" y="360" width="20" height="20" style="--i:245;"></rect>
+      <rect x="280" y="360" width="20" height="20" style="--i:246;"></rect>
+      <rect x="320" y="360" width="20" height="20" style="--i:247;"></rect>
+      <rect x="360" y="360" width="20" height="20" style="--i:248;"></rect>
+      <rect x="400" y="360" width="20" height="20" style="--i:249;"></rect>
+      <rect x="440" y="360" width="20" height="20" style="--i:250;"></rect>
+      <rect x="460" y="360" width="20" height="20" style="--i:251;"></rect>
+      <rect x="480" y="360" width="20" height="20" style="--i:252;"></rect>
+      <rect y="380" width="20" height="20" style="--i:253;"></rect>
+      <rect x="120" y="380" width="20" height="20" style="--i:254;"></rect>
+      <rect x="180" y="380" width="20" height="20" style="--i:255;"></rect>
+      <rect x="200" y="380" width="20" height="20" style="--i:256;"></rect>
+      <rect x="240" y="380" width="20" height="20" style="--i:257;"></rect>
+      <rect x="300" y="380" width="20" height="20" style="--i:258;"></rect>
+      <rect x="320" y="380" width="20" height="20" style="--i:259;"></rect>
+      <rect x="400" y="380" width="20" height="20" style="--i:260;"></rect>
+      <rect x="420" y="380" width="20" height="20" style="--i:261;"></rect>
+      <rect x="460" y="380" width="20" height="20" style="--i:262;"></rect>
+      <rect y="400" width="20" height="20" style="--i:263;"></rect>
+      <rect x="40" y="400" width="20" height="20" style="--i:264;"></rect>
+      <rect x="60" y="400" width="20" height="20" style="--i:265;"></rect>
+      <rect x="80" y="400" width="20" height="20" style="--i:266;"></rect>
+      <rect x="120" y="400" width="20" height="20" style="--i:267;"></rect>
+      <rect x="160" y="400" width="20" height="20" style="--i:268;"></rect>
+      <rect x="180" y="400" width="20" height="20" style="--i:269;"></rect>
+      <rect x="200" y="400" width="20" height="20" style="--i:270;"></rect>
+      <rect x="240" y="400" width="20" height="20" style="--i:271;"></rect>
+      <rect x="260" y="400" width="20" height="20" style="--i:272;"></rect>
+      <rect x="280" y="400" width="20" height="20" style="--i:273;"></rect>
+      <rect x="300" y="400" width="20" height="20" style="--i:274;"></rect>
+      <rect x="320" y="400" width="20" height="20" style="--i:275;"></rect>
+      <rect x="340" y="400" width="20" height="20" style="--i:276;"></rect>
+      <rect x="360" y="400" width="20" height="20" style="--i:277;"></rect>
+      <rect x="380" y="400" width="20" height="20" style="--i:278;"></rect>
+      <rect x="400" y="400" width="20" height="20" style="--i:279;"></rect>
+      <rect x="440" y="400" width="20" height="20" style="--i:280;"></rect>
+      <rect x="460" y="400" width="20" height="20" style="--i:281;"></rect>
+      <rect x="480" y="400" width="20" height="20" style="--i:282;"></rect>
+      <rect y="420" width="20" height="20" style="--i:283;"></rect>
+      <rect x="40" y="420" width="20" height="20" style="--i:284;"></rect>
+      <rect x="60" y="420" width="20" height="20" style="--i:285;"></rect>
+      <rect x="80" y="420" width="20" height="20" style="--i:286;"></rect>
+      <rect x="120" y="420" width="20" height="20" style="--i:287;"></rect>
+      <rect x="160" y="420" width="20" height="20" style="--i:288;"></rect>
+      <rect x="180" y="420" width="20" height="20" style="--i:289;"></rect>
+      <rect x="200" y="420" width="20" height="20" style="--i:290;"></rect>
+      <rect x="300" y="420" width="20" height="20" style="--i:291;"></rect>
+      <rect x="340" y="420" width="20" height="20" style="--i:292;"></rect>
+      <rect x="360" y="420" width="20" height="20" style="--i:293;"></rect>
+      <rect x="400" y="420" width="20" height="20" style="--i:294;"></rect>
+      <rect x="420" y="420" width="20" height="20" style="--i:295;"></rect>
+      <rect x="440" y="420" width="20" height="20" style="--i:296;"></rect>
+      <rect x="460" y="420" width="20" height="20" style="--i:297;"></rect>
+      <rect x="480" y="420" width="20" height="20" style="--i:298;"></rect>
+      <rect y="440" width="20" height="20" style="--i:299;"></rect>
+      <rect x="40" y="440" width="20" height="20" style="--i:300;"></rect>
+      <rect x="60" y="440" width="20" height="20" style="--i:301;"></rect>
+      <rect x="80" y="440" width="20" height="20" style="--i:302;"></rect>
+      <rect x="120" y="440" width="20" height="20" style="--i:303;"></rect>
+      <rect x="160" y="440" width="20" height="20" style="--i:304;"></rect>
+      <rect x="180" y="440" width="20" height="20" style="--i:305;"></rect>
+      <rect x="200" y="440" width="20" height="20" style="--i:306;"></rect>
+      <rect x="220" y="440" width="20" height="20" style="--i:307;"></rect>
+      <rect x="240" y="440" width="20" height="20" style="--i:308;"></rect>
+      <rect x="280" y="440" width="20" height="20" style="--i:309;"></rect>
+      <rect x="420" y="440" width="20" height="20" style="--i:310;"></rect>
+      <rect x="440" y="440" width="20" height="20" style="--i:311;"></rect>
+      <rect x="480" y="440" width="20" height="20" style="--i:312;"></rect>
+      <rect y="460" width="20" height="20" style="--i:313;"></rect>
+      <rect x="120" y="460" width="20" height="20" style="--i:314;"></rect>
+      <rect x="160" y="460" width="20" height="20" style="--i:315;"></rect>
+      <rect x="200" y="460" width="20" height="20" style="--i:316;"></rect>
+      <rect x="220" y="460" width="20" height="20" style="--i:317;"></rect>
+      <rect x="280" y="460" width="20" height="20" style="--i:318;"></rect>
+      <rect x="300" y="460" width="20" height="20" style="--i:319;"></rect>
+      <rect x="320" y="460" width="20" height="20" style="--i:320;"></rect>
+      <rect x="340" y="460" width="20" height="20" style="--i:321;"></rect>
+      <rect x="360" y="460" width="20" height="20" style="--i:322;"></rect>
+      <rect x="380" y="460" width="20" height="20" style="--i:323;"></rect>
+      <rect x="400" y="460" width="20" height="20" style="--i:324;"></rect>
+      <rect x="420" y="460" width="20" height="20" style="--i:325;"></rect>
+      <rect x="480" y="460" width="20" height="20" style="--i:326;"></rect>
+      <rect y="480" width="20" height="20" style="--i:327;"></rect>
+      <rect x="20" y="480" width="20" height="20" style="--i:328;"></rect>
+      <rect x="40" y="480" width="20" height="20" style="--i:329;"></rect>
+      <rect x="60" y="480" width="20" height="20" style="--i:330;"></rect>
+      <rect x="80" y="480" width="20" height="20" style="--i:331;"></rect>
+      <rect x="100" y="480" width="20" height="20" style="--i:332;"></rect>
+      <rect x="120" y="480" width="20" height="20" style="--i:333;"></rect>
+      <rect x="160" y="480" width="20" height="20" style="--i:334;"></rect>
+      <rect x="180" y="480" width="20" height="20" style="--i:335;"></rect>
+      <rect x="200" y="480" width="20" height="20" style="--i:336;"></rect>
+      <rect x="220" y="480" width="20" height="20" style="--i:337;"></rect>
+      <rect x="240" y="480" width="20" height="20" style="--i:338;"></rect>
+      <rect x="340" y="480" width="20" height="20" style="--i:339;"></rect>
+      <rect x="360" y="480" width="20" height="20" style="--i:340;"></rect>
+      <rect x="380" y="480" width="20" height="20" style="--i:341;"></rect>
+      <rect x="400" y="480" width="20" height="20" style="--i:342;"></rect>
+      <rect x="420" y="480" width="20" height="20" style="--i:343;"></rect>
+      <rect x="440" y="480" width="20" height="20" style="--i:344;"></rect>
+      <rect x="460" y="480" width="20" height="20" style="--i:345;"></rect>
+      <rect x="480" y="480" width="20" height="20" style="--i:346;"></rect>
+    </svg>
+  </div>
+  <header>
+    <div class="container">
+      <h1>QR Code</h1>
+      <div class="mode">
+        <svg class="fa-sun toggle" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+          version="1.1" x="0px" y="0px" viewBox="0 0 1000 1000" xml:space="preserve">
+          <g>
+            <path
+              d="M270.3,500c0,126.9,102.8,229.7,229.7,229.7S729.7,626.9,729.7,500c0-126.9-102.8-229.7-229.7-229.7S270.3,373.1,270.3,500z" />
+            <path
+              d="M500,193.8c16.8,0,30.6-13.8,30.6-30.6V40.6c0-16.8-13.8-30.6-30.6-30.6c-16.8,0-30.6,13.8-30.6,30.6v122.5C469.4,180,483.2,193.8,500,193.8z" />
+            <path
+              d="M500,806.3c-16.8,0-30.6,13.8-30.6,30.6v122.5c0,16.8,13.8,30.6,30.6,30.6c16.8,0,30.6-13.8,30.6-30.6V836.9C530.6,820,516.8,806.3,500,806.3z" />
+            <path
+              d="M959.4,469.4H836.9c-16.8,0-30.6,13.8-30.6,30.6c0,16.8,13.8,30.6,30.6,30.6h122.5c16.8,0,30.6-13.8,30.6-30.6C990,483.2,976.2,469.4,959.4,469.4z" />
+            <path
+              d="M193.8,500c0-16.8-13.8-30.6-30.6-30.6H40.6C23.8,469.4,10,483.2,10,500c0,16.8,13.8,30.6,30.6,30.6h122.5C180,530.6,193.8,516.8,193.8,500z" />
+            <path
+              d="M239.7,284.1c6.1,6.1,13.8,9.2,21.4,9.2s15.3-3.1,21.4-9.2c12.3-12.3,12.3-30.6,0-42.9l-87.3-87.3c-12.3-12.3-30.6-12.3-42.9,0s-12.3,30.6,0,42.9L239.7,284.1z" />
+            <path
+              d="M760.3,715.9c-12.3-12.3-30.6-12.3-42.9,0s-12.3,30.6,0,42.9l87.3,87.3c6.1,6.1,13.8,9.2,21.4,9.2s15.3-3.1,21.4-9.2c12.3-12.3,12.3-30.6,0-42.9L760.3,715.9z" />
+            <path
+              d="M738.9,291.8c7.7,0,15.3-3.1,21.4-9.2l87.3-87.3c12.3-12.3,12.3-30.6,0-42.9s-30.6-12.3-42.9,0l-88.8,87.3c-12.3,12.3-12.3,30.6,0,42.9C722,288.7,729.7,291.8,738.9,291.8z" />
+            <path
+              d="M239.7,715.9l-87.3,87.3c-12.3,12.3-12.3,30.6,0,42.9c6.1,6.1,13.8,9.2,21.4,9.2s15.3-3.1,21.4-9.2l87.3-87.3c12.3-12.3,12.3-30.6,0-42.9C271.8,705.2,251.9,705.2,239.7,715.9z" />
+          </g>
+        </svg>
+        <i class="fa-solid fa-moon"></i>
+      </div>
+    </div>
+  </header>
+
+  <section class="data-entery">
+    <div class="container">
+      <div class="qr-box">
+        <div class="img-preview">
+          <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://ahmed-abdo.live&margin=0"
+            alt="">
+          <span>preview img</span>
+        </div>
+        <div class="qr-data">
+
+          <input id="url" type="text" placeholder="Enter Your URL" value="https://ahmed-abdo.live">
+          <div class="color-input-content">
+            <div class="color-div">
+              <input type="color" id="bg-color" value="#000000">
+              <label for="bg-color">Chose Your QR Color</label>
+            </div>
+            <div class="color-div">
+              <input type="color" id="qr-color" value="#ffffff">
+              <label for="qr-color">Chose Your Background</label>
+            </div>
+          </div>
+          <div class="number-input-content">
+            <div class="number-div">
+              <label for="margin">QR Size</label>
+              <span class="input-number-decrement">–</span>
+              <input class="input-number size" type="number" value="500" min="10" max="1000" step="50">
+              <span class="input-number-increment">+</span>
+            </div>
+            <div class="number-div">
+              <label for="margin">QR Margin</label>
+              <span class="input-number-decrement">–</span>
+              <input class="input-number margin" type="number" value="5" min="0" max="50" step="5">
+              <span class="input-number-increment">+</span>
+            </div>
+          </div>
+          <select name="" id="">
+            <option value="png" selected>PNG</option>
+            <option value="svg">SVG</option>
+            <option value="jpg">JPG</option>
+            <option value="eps">EPS</option>
+            <option value="jpeg">JPEG</option>
+            <option value="gif">GIF</option>
+          </select>
+
+
+        </div>
+
+
+      </div>
+      <div class="btn">
+        <button>Generate</button>
+        <button class="active"> Save
+          File</button>
+
+      </div>
+    </div>
+  </section>
+  <footer>
+    <a href="https://ahmed-abdo.live">powerd by ahmed abdo</a>
+  </footer>
+  <script src="js/qr-code.js">
+
+  </script>
+</body>
+
+</html>
